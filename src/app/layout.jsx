@@ -67,12 +67,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className="pt-20 overflow-x-hidden">
-				<Header />
-				<main>{children}</main>
-				<InstagramButton />
-				<WhatsAppButton />
-				<Footer />
+			<body className="overflow-x-hidden">
+				{/* Header is fixed, so add padding dynamically */}
+				<div className="pt-16 sm:pt-20">
+					<Header />
+					<main>{children}</main>
+					<Footer />
+				</div>
+
+				{/* Floating Buttons - responsive placement */}
+				<div className="fixed bottom-4 right-4 flex flex-col gap-3 sm:gap-4 z-50">
+					<InstagramButton />
+					<WhatsAppButton />
+				</div>
 			</body>
 		</html>
 	);
