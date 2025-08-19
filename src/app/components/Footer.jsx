@@ -42,7 +42,7 @@ export default function Footer() {
             target="_blank"
             className="flex items-center gap-2 text-gray-300 hover:text-yellow-400 transition"
           >
-            <FaInstagram className="text-yellow-400 text-lg" /> Instagram
+            <FaInstagram className="text-yellow-400 text-lg" /> Laptop Secure
           </a>
         </motion.div>
 

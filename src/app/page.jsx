@@ -99,9 +99,9 @@ export default function Home() {
         </h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {[
-            { name: "Dell Latitude i5", price: "₹18,000", img: "/dell.jpeg" },
-            { name: "HP EliteBook i7", price: "₹22,000", img: "/HP EliteBook i7.jpeg" },
-            { name: "Lenovo ThinkPad", price: "₹20,500", img: "/Lenovo ThinkPad.webp" },
+            { name: "Dell Latitude i5", price: "₹12,000", img: "/dell.jpeg" },
+            { name: "HP EliteBook i7", price: "₹18,000", img: "/HP EliteBook i7.jpeg" },
+            { name: "Lenovo ThinkPad", price: "₹15,500", img: "/Lenovo ThinkPad.webp" },
           ].map((laptop, i) => (
             <motion.div
               key={i}

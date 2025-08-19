@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
+import InstagramButton from "./components/InstagramButton";
 
 export const metadata = {
 	title: {
@@ -69,6 +70,7 @@ export default function RootLayout({ children }) {
 			<body className="pt-20 overflow-x-hidden">
 				<Header />
 				<main>{children}</main>
+				<InstagramButton />
 				<WhatsAppButton />
 				<Footer />
 			</body>
