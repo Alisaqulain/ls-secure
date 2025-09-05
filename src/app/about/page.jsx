@@ -3,34 +3,6 @@
 import { motion } from "framer-motion";
 import { FaLaptop, FaDesktop, FaHeadset, FaShieldAlt, FaTools } from "react-icons/fa";
 
-export const metadata = {
-	title: "About Us - Laptop Secure",
-	description: "Learn about Laptop Secure - your trusted destination for quality used laptops, desktops, and computer accessories. We provide reliable, secure, and affordable tech solutions.",
-	keywords: [
-		"about laptop secure",
-		"laptop store",
-		"computer store",
-		"used laptop dealer",
-		"refurbished laptop seller",
-		"computer accessories store",
-		"laptop warranty",
-		"customer support"
-	],
-	openGraph: {
-		title: "About Us - Laptop Secure",
-		description: "Learn about Laptop Secure - your trusted destination for quality used laptops, desktops, and computer accessories.",
-		type: "website",
-		url: "https://laptopsecure.com/about",
-	},
-	twitter: {
-		title: "About Us - Laptop Secure",
-		description: "Your trusted destination for quality used laptops, desktops, and computer accessories.",
-	},
-	alternates: {
-		canonical: "/about",
-	},
-};
-
 export default function AboutPage() {
   return (
     <main className="bg-gradient-to-b from-blue-50 to-yellow-50 text-gray-900 min-h-screen px-6 py-12">
