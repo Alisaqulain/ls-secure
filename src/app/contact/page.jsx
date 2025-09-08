@@ -1,5 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
+import dynamic from "next/dynamic";
+const Map = dynamic(() => import("../components/Map"), { ssr: false });
 import { Phone, Mail, MapPin, Instagram, MessageCircle } from "lucide-react";
 
 export default function ContactPage() {
@@ -107,6 +109,12 @@ export default function ContactPage() {
             Send Message
           </motion.button>
         </motion.form>
+      </div>
+
+      {/* Map Section */}
+      <div className="max-w-5xl w-full mt-12">
+        <h2 className="text-2xl font-bold text-blue-800 mb-4 text-center">Our Location</h2>
+        <Map query="Tara Chand Petrol Pump, Muzaffarnagar, Uttar Pradesh 251001" height={420} />
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import dynamic from "next/dynamic";
+const Map = dynamic(() => import("./components/Map"), { ssr: false });
 import { FaLaptop, FaHeadset, FaShieldAlt, FaTruck } from "react-icons/fa";
 import Link from "next/link";
 
@@ -190,6 +192,15 @@ export default function Home() {
         <Link href="/services" className="px-8 py-3 bg-yellow-400 text-black font-semibold rounded-lg shadow hover:bg-yellow-500 transition inline-block">
           Shop Now
         </Link>
+      </section>
+
+      {/* Map Section */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">Find Us in Muzaffarnagar</h2>
+          <p className="text-center text-gray-700 mb-8">Tara Chand Petrol Pump, Muzaffarnagar, Uttar Pradesh 251001</p>
+          <Map query="Tara Chand Petrol Pump, Muzaffarnagar, Uttar Pradesh 251001" height={420} />
+        </div>
       </section>
     </main>
   );
