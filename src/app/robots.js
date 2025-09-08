@@ -6,5 +6,6 @@ export default function robots() {
       disallow: ['/admin/', '/api/', '/_next/', '/private/'],
     },
     sitemap: 'https://laptopsecure.com/sitemap.xml',
+    host: 'https://laptopsecure.com',
   };
 }

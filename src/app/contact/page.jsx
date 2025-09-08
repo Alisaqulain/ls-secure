@@ -22,7 +22,7 @@ export default function ContactPage() {
         className="text-lg text-gray-700 mb-12 text-center max-w-2xl"
       >
         Have questions or want to get in touch? Reach us anytime through call,
-        WhatsApp, or email. We’re here to help you find the best laptop deals!
+        WhatsApp, or email. For Muzaffarnagar & nearby areas, we offer laptop repairing and old laptop purchase.
       </motion.p>
 
       {/* Contact Info */}
@@ -71,7 +71,7 @@ export default function ContactPage() {
           <div className="flex items-center space-x-4">
             <MapPin className="text-yellow-600" size={28} />
             <p className="text-gray-800">
-              Tara Chand Petrol Pump, [Add Exact City/State Here]
+              Tara Chand Petrol Pump, Muzaffarnagar, Uttar Pradesh 251001
             </p>
           </div>
         </motion.div>

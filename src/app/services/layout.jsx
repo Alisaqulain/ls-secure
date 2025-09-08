@@ -1,26 +1,26 @@
 export const metadata = {
-	title: "Our Services - Laptop Secure",
-	description: "Explore our comprehensive services: Used Laptops, Desktops, Computer Accessories, Parts, Storage Devices, and Repair Services. Best prices with warranty.",
+	title: "Laptop Repair & Old Laptop Purchase in Muzaffarnagar | Services",
+	description: "Laptop repairing, diagnostics, part replacement, and old laptop buy/sell in Muzaffarnagar, Uttar Pradesh. Get refurbished laptops with warranty.",
 	keywords: [
-		"laptop services",
+		"laptop services Muzaffarnagar",
 		"used laptop services",
 		"desktop services",
 		"computer accessories",
-		"laptop repair services",
+		"laptop repair services Muzaffarnagar",
 		"computer parts",
 		"storage devices",
 		"laptop warranty services",
 		"computer maintenance"
 	],
 	openGraph: {
-		title: "Our Services - Laptop Secure",
-		description: "Explore our comprehensive services: Used Laptops, Desktops, Computer Accessories, Parts, Storage Devices, and Repair Services.",
+		title: "Laptop Repair & Old Laptop Purchase | Muzaffarnagar",
+		description: "Expert laptop repairing and best prices for old laptops in Muzaffarnagar, UP.",
 		type: "website",
 		url: "https://laptopsecure.com/services",
 	},
 	twitter: {
-		title: "Our Services - Laptop Secure",
-		description: "Comprehensive laptop and computer services: Used devices, accessories, parts, and repair services.",
+		title: "Services - Laptop Secure Muzaffarnagar",
+		description: "Repairing services and old laptop purchase in Muzaffarnagar, Uttar Pradesh.",
 	},
 	alternates: {
 		canonical: "/services",

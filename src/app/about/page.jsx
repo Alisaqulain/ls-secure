@@ -23,10 +23,9 @@ export default function AboutPage() {
         transition={{ delay: 0.5, duration: 0.8 }}
         className="text-lg md:text-xl text-center max-w-3xl mx-auto mb-12"
       >
-        <strong>Laptop Secure</strong> is your trusted destination for{" "}
-        <span className="font-semibold text-blue-600">Used Laptops 💻, Desktops 🖥️, and Accessories</span> 
-        in excellent condition at the best prices.  
-        We aim to provide reliable, secure, and affordable tech solutions for everyone.
+        <strong>Laptop Secure</strong> in <span className="font-semibold text-blue-600">Muzaffarnagar, Uttar Pradesh</span> is your trusted destination for {" "}
+        <span className="font-semibold text-blue-600">old laptop purchase, expert laptop repairing, Used Laptops 💻, Desktops 🖥️, and Accessories</span> at the best prices.  
+        We provide reliable, secure, and affordable tech solutions with local pickup & delivery.
       </motion.p>
 
       {/* Icon Features Section */}

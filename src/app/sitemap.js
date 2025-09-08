@@ -26,5 +26,7 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    // Potential future city pages for local SEO
+    // { url: `${baseUrl}/laptop-repair-muzaffarnagar`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
   ];
 }

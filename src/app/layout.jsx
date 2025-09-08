@@ -6,10 +6,10 @@ import InstagramButton from "./components/InstagramButton";
 
 export const metadata = {
 	title: {
-		default: "💻 Laptop Secure - Best Used Laptops & Desktops at Affordable Prices",
+		default: "💻 Laptop Secure Muzaffarnagar - Old Laptop Purchase & Repair in UP",
 		template: "%s | 💻 Laptop Secure",
 	},
-	description: "Buy quality used laptops, desktops, and computer accessories at the best prices in India. Trusted source for refurbished devices with warranty. Free delivery across India.",
+	description: "Buy and sell old laptops in Muzaffarnagar, Uttar Pradesh. Expert laptop repairing, refurbished laptops & desktops with warranty. Fast service, best prices, local pickup & delivery.",
 	keywords: [
 		"Laptop Secure",
 		"used laptops",
@@ -24,6 +24,12 @@ export const metadata = {
 		"computer store",
 		"laptop warranty",
 		"India laptops",
+		"Muzaffarnagar laptops",
+		"Muzaffarnagar laptop repair",
+		"Uttar Pradesh laptop repair",
+		"buy old laptop Muzaffarnagar",
+		"sell old laptop Muzaffarnagar",
+		"laptop repairing near me",
 		"pre-owned laptops",
 		"laptop repair",
 		"computer parts"
@@ -59,8 +65,8 @@ export const metadata = {
 	},
 	manifest: "/manifest.json",
 	openGraph: {
-		title: "💻 Laptop Secure - Best Used Laptops & Desktops at Affordable Prices",
-		description: "Buy quality used laptops, desktops, and computer accessories at the best prices in India. Trusted source for refurbished devices with warranty.",
+		title: "💻 Laptop Secure Muzaffarnagar - Old Laptop Purchase & Repair",
+		description: "Old laptop purchase and expert laptop repairing in Muzaffarnagar, UP. Refurbished laptops & desktops with warranty.",
 		type: "website",
 		url: "https://laptopsecure.com",
 		siteName: "Laptop Secure",
@@ -78,8 +84,8 @@ export const metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "💻 Laptop Secure - Best Used Laptops & Desktops",
-		description: "Quality used laptops and desktops at great prices with warranty. Free delivery across India.",
+		title: "💻 Laptop Secure Muzaffarnagar - Buy/Sell & Repair Laptops",
+		description: "Buy/sell old laptops and get expert laptop repairing in Muzaffarnagar, Uttar Pradesh.",
 		images: ["/l.png"],
 		creator: "@laptopsecure",
 		site: "@laptopsecure",
@@ -127,9 +133,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	const structuredData = {
 		"@context": "https://schema.org",
-		"@type": "LocalBusiness",
+		"@type": "ComputerStore",
+		"additionalType": "https://schema.org/ElectronicsRepairShop",
 		"name": "Laptop Secure",
-		"description": "Buy quality used laptops, desktops, and computer accessories at the best prices in India. Trusted source for refurbished devices with warranty.",
+		"description": "Old laptop purchase and expert laptop repairing in Muzaffarnagar, Uttar Pradesh. Refurbished laptops & desktops with warranty.",
 		"url": "https://laptopsecure.com",
 		"logo": "https://laptopsecure.com/l.png",
 		"image": "https://laptopsecure.com/l.png",
@@ -138,30 +145,44 @@ export default function RootLayout({ children }) {
 		"address": {
 			"@type": "PostalAddress",
 			"streetAddress": "Tara Chand Petrol Pump",
+			"addressLocality": "Muzaffarnagar",
+			"addressRegion": "Uttar Pradesh",
+			"postalCode": "251001",
 			"addressCountry": "IN"
 		},
 		"geo": {
 			"@type": "GeoCoordinates",
-			"latitude": "28.6139",
-			"longitude": "77.2090"
+			"latitude": "29.4727",
+			"longitude": "77.7085"
 		},
 		"openingHours": "Mo-Su 09:00-21:00",
 		"priceRange": "₹5000-₹50000",
 		"paymentAccepted": "Cash, Credit Card, UPI, Net Banking",
 		"currenciesAccepted": "INR",
-		"areaServed": {
-			"@type": "Country",
-			"name": "India"
-		},
+		"areaServed": [
+			{ "@type": "City", "name": "Muzaffarnagar" },
+			{ "@type": "State", "name": "Uttar Pradesh" },
+			{ "@type": "Country", "name": "India" }
+		],
 		"serviceArea": {
 			"@type": "GeoCircle",
 			"geoMidpoint": {
 				"@type": "GeoCoordinates",
-				"latitude": "28.6139",
-				"longitude": "77.2090"
+				"latitude": "29.4727",
+				"longitude": "77.7085"
 			},
-			"geoRadius": "1000000"
+			"geoRadius": "50000"
 		},
+		"makesOffer": [
+			{
+				"@type": "Offer",
+				"itemOffered": { "@type": "Service", "name": "Laptop Repairing", "areaServed": "Muzaffarnagar, Uttar Pradesh, India" }
+			},
+			{
+				"@type": "Offer",
+				"itemOffered": { "@type": "Product", "name": "Old/Used Laptops", "category": "Computers & Electronics" }
+			}
+		],
 		"hasOfferCatalog": {
 			"@type": "OfferCatalog",
 			"name": "Laptop and Computer Products",

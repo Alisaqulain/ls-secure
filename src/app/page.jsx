@@ -23,7 +23,7 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl"
         >
-          Deals in: Used Laptops 💻 / Desktops 🖥️ (Good Condition) & Accessories at the Best Prices
+          Muzaffarnagar's trusted shop for old laptop purchase & expert laptop repairing. Deals in Used Laptops 💻 / Desktops 🖥️ (Good Condition) & Accessories at the Best Prices
         </motion.p>
         <motion.div
           initial={{ scale: 0 }}
